@@ -70,7 +70,7 @@ export default function Product({cartItems,setcartItems}){
 
                 <hr/>
 
-                <p>Status: <span id="stock_status" className={product.stock>0 ?"text-success":"text-dangeer"}>{product.stock>0 ? "In Stock":"Out of Stock"}</span></p>
+                <p>Status: <span id="stock_status" className={product.stock>0 ?"text-success":"text-danger"}>{product.stock>0 ? "In Stock":"Out of Stock"}</span></p>
 
                 <hr/>
 
