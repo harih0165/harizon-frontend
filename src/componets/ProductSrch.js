@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
-export default function productsch(){
+export default function Productsch(){
     const [keyword,setkeyword]= useState("")
     const navigate = useNavigate();
     const searchHandler =() =>{
